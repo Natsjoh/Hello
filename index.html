@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pels og Poter</title> 
+    <style>
+        #toppfelt{
+            width: 100vw; /*vw= viewport width dvs. 100vw = 100% av sidebredden*/
+            height: 100px;
+            background-color: rgb(250, 188, 72)
+            border: 1px solid gray;
+            display: flex;
+            flex-direction: row;
+        }
+        #linkefelt{
+            width: 100vw;
+            height: 50px;
+            background-color: rgb(227, 221, 194)
+        }
+        #hovedfelt{
+            margin:auto;
+            width: 80vw;
+            height: 70vh;
+            background-color: burlywood;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .hoveddiver{
+            width: 25%;
+            height: 80%;
+            background-color:beige;
+            border: 1px solid rgb(79, 43, 13);
+            border-radius: 20px;
+            /*box-shadow: 10px 10px 20px rgb(96, 73, 52);*/
+            padding: 5px;
+        }
+        .hoveddiver p{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: large;
+            color: black;
+        }
+
+        .hoveddiver a{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: large;
+            color: black;
+            text-decoration: none;
+        }
+        .hoveddiver a:hover{
+            font-size: larger;
+            text-decoration: underline;
+        }
+        .hoveddiver a:hover{
+            text-decoration: underline;
+        }
+        #midtrehoveddiv{
+            display: flex;
+            justify-content:center;
+            align-items: center;
+        }
+        .toppdiv{
+            height: 140px;
+            width: 150px;
+        }
+
+
+
+
+        #vtf{
+            background-color: rgb(255, 255, 255);
+            flex-grow: 20;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #mtf{
+            background-color: rgb(255, 255, 255);
+            flex-grow: 150;
+            font-family:'Times New Roman', Times, serif;
+            font-size: 70px;
+            font-weight: bold;
+            color: rgb(240, 138, 93);
+            text-decoration: none;
+            text-align: center;
+            text-shadow: 2px 2px 2px rgb(138, 125, 115);
+        }
+        #htf{
+            background-color: rgb(255, 255, 255);
+            flex-grow: 1;
+            font-family:'Times New Roman', Times, serif;
+            font-size: 70px;
+            color: rgb(255, 123, 0);
+            text-decoration: none;
+            text-align: center;
+            
+
+            
+        }
+        body{
+            background-image: url(orange\ field.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div id="toppfelt">
+        <div class="toppdiv" id="vtf"> <img src="images/Logo1.png" alt="Logo">
+        </div>
+        <div class=" toppdiv" id="mtf">Nytelse i hver dråpe</div>
+        <div class="toppdiv" id="htf">&#9776;</div>
+
+    </div>
+    <div id="linkefelt">
+        <a href="omos.html">Om oss</a>
+
+    </div>
+    <div id="hovedfelt">
+        <div class="hoveddiver">
+            <h1>Streetstyle fra Olso runway</h1>
+            <br>
+            <p>Influencere, moteprofiler og presse var samlet i hovedstaden for å se kommende vår- og sommerkolleksjoner fra noen av Norges største designere - og nykommere.
+                <br>
+            Under moteukens første dag fikk vi være vitne til at Leah Behn debuterte på catwalken. Hun gikk for den norske designerspiren Murlong Cres, som vi også har sett henne ikledd tidligere.
+            </p>
+            Les mer <a href="https://www.minmote.no/mote/a/OoyEak/street-style-oslo-runway?utm_source=vgfront&utm_content=hovedlopet_row7_pos2&utm_medium=dre-66cd931d661dafcffac07646">her!</a>
+        </div>
+        <div class="hoveddiver" id="midtrehoveddiv">
+            <img src="mote1.avif" alt="mote" width="100%">
+        </div>
+        <div class="hoveddiver">
+            <iframe width="255" height="141" src="https://www.youtube.com/embed/3bdWONmXfMg" title="ESP Oslo Runway 2022" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        </div>
+    </div>
+    
+</body>
+</html>

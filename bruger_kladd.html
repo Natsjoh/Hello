@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            font-family: "Century Gothic", "Arial", sans-serif;
+        }
+
+        #toppfelt{
+            display: flex;
+            flex-direction: row;
+            background-color: antiquewhite;
+            color:rgb(255, 184, 96);
+            height: 60px;
+            width: 100vw;
+        }
+        #logo{
+            font-size: 40px;
+            width: 100px;
+            text-align: center;
+        }
+        #tittel{
+            width: calc(100vW - 100px);
+            text-align: center;
+            padding-top: 7px;
+        }
+        #burger{
+            font-size: 40px;
+            font-weight: bold;
+            position: absolute;
+            top:0px;
+            right:10px;
+            cursor: pointer;
+        }
+        #veksler{
+            display: none;
+        }
+        #meny{
+            display: none;
+            background-color: antiquewhite;
+            width: 200px;
+            height: 150px;
+            position:absolute;
+            top:60px;
+            right:10px;
+        }
+        #meny a{
+            font-size: 20px;
+            color:burlywood;
+            text-decoration: none;
+            padding: 10px;
+        }
+        #meny a:hover{
+            text-decoration: underline;
+        }
+        #meny ul{
+            list-style: none;
+            text-align: left;
+        }
+        #meny li{
+            border-bottom: 1px solid burlywood;
+        }
+        #veksler:checked ~ #meny{
+            display:block;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="toppfelt"> 
+        <div id="logo">&#9937;</div>
+        <div id="tittel">
+            <h1>Jazz on!</h1>
+            <input type="checkbox" id="veksler">
+            <label for="veksler" id="burger">&#9776;</label>
+            <nav id="meny">
+                <ul>
+                    <li><a href="#">Om oss</a></li>
+                    <li><a href="#">Produkter</a></li>
+                    <li><a href="#">Artikler</a></li>
+                </ul>
+            </nav>
+
+
+
+        </div>
+    
+    </div>
+    <div id="hovedfelt">
+        <br>
+        <h1>Velkommen</h1>
+    </div>
+    
+</body>
+</html>

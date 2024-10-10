@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Om oss</title> 
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        #toppfelt{
+            width: 100vw; /*vw= viewport width dvs. 100vw = 100% av sidebredden*/
+            height: 160px;
+            background-color: rgb(255, 255, 255);
+            border: 1px solid gray;
+            display: flex;
+            flex-direction: row;
+        }
+        #linker{
+           display: flex;
+           width: 100vw;
+        }
+
+        .linkefelt{
+            width: 100vw;
+            height: 30px;
+            background-color: rgb(201, 216, 255);
+            padding-left: 10px;
+            padding-top: 5px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: large;
+            color: white;
+        }
+            
+        .linkefelt a{
+            color:white;
+            text-decoration: none;
+
+        }
+        .linkefelt a:hover{
+            color: aliceblue;
+            text-decoration: underline;
+        }
+
+        #lfe{
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            padding-left: 100px;
+           
+        }
+
+        #lft{
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            padding-left: 250px;
+         
+        }
+
+        #lftr{
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            padding-left: 200px;
+            
+        }
+
+        #hovedfelt{
+            margin:auto;
+            width: 80vw;
+            height: 200vh;
+            background-color: rgb(239, 242, 255);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            padding-top: 30px;
+        }
+        .hoveddiver{
+            width: 60%;
+            height: 80%;
+            background-color:rgb(239, 242, 255);
+            border-radius: 20px;
+            /*box-shadow: 10px 10px 20px rgb(96, 73, 52);*/
+            padding: 5px;
+            text-align: center;
+        }
+        .hoveddiver h1{
+            text-decoration: underline;
+        }
+        .hoveddiver p{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: large;
+            color: black;
+        }
+
+        .hoveddiver a{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: large;
+            color: black;
+            text-decoration: none;
+            
+        }
+        .hoveddiver a:hover{
+            font-size: larger;
+            text-decoration: underline;
+        }
+        .hoveddiver a:hover{
+            text-decoration: underline;
+        }
+        #midtrehoveddiv{
+            display: flex;
+            justify-content:center;
+            align-items: center;
+        }
+        .toppdiv{
+            height: 100px;
+            width: 100px;
+            padding-top: 25px;
+        }
+
+
+
+
+        #vtf{
+            background-color: rgb(255, 255, 255);
+            flex-grow: 20;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }     
+        body{
+            background-color: rgb(32, 58, 120);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            overflow-x: hidden;
+        }
+
+
+    </style>
+    </head>
+    <body>
+        <div id="toppfelt">
+            <div class="toppdiv" id="vtf"> <img src="images/Logoliten.png" alt="Logo" width="100%">
+            </div>
+    
+        </div>
+       
+        <div id="linker">
+            <div class="linkefelt" id="lfe">
+                <a href="hovedside.html">Hovedside</a>
+            </div>
+            <div class="linkefelt" id="lft">
+                <a href="annet.html">Vis din støtte</a>
+            </div>
+            <div class="linkefelt" id="lftr">
+                <a href="behandlinger.html">Behandlinger</a>
+            </div>
+    
+        </div>
+        <div id="hovedfelt">
+            <div class="hoveddiver">
+                <h1>Vår historie</h1>
+                <br>
+                <img src="images/vårhistorie.avif" alt="katt og hund" width="100%">
+                <br>
+                <p>I dag er Pels og Poter et forbilde innen avansert veterinærmedisin og en høyt verdsatt partner for dyreeiere og henvisende veterinærer i Europa.
+                    <br>
+                    <br>
+                    Selskapet tilbyr et stort utvalg av medisinske og kirurgiske tjenester. Dette omfatter alt fra forebyggende og basisbehandling til avansert diagnostikk, indremedisin, akuttmedisin, kirurgi og ortopedi. Pels og Poter tilbyr også rehabilitering, fysioterapi og kostholdsråd, samt nøye utvalgte typer dyrefôr og pleieprodukter.
+                    <br>
+                    <br>
+                    Pels og Poter tilbyr moderne diagnostikk og behandling av høy kvalitet i fjorten land, på 450 steder i Europa og skaper trygghet for dyreeiere gjennom pasientsikkerhet og høy tilgjengelighet. Selskapets 11000 dedikerte medarbeidere tar hvert år hånd om over 3,6 millioner pasienter. Pels og Poter er en anerkjent utdannings- og henvisningsinstans.
+                </p>
+                           
+            </div>
+        
+    </body>
+    </html>    

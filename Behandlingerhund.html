@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Behandlinger til hund</title> 
+    <style>
+        #toppfelt{
+            width: 100vw; /*vw= viewport width dvs. 100vw = 100% av sidebredden*/
+            height: 160px;
+            background-color: rgb(255, 255, 255);
+            border: 1px solid gray;
+            display: flex;
+            flex-direction: row;
+        }
+        #linker{
+           display: flex;
+        }
+
+        .linkefelt{
+            width: 100vw;
+            height: 30px;
+            background-color: rgb(201, 216, 255);
+            padding-left: 10px;
+            padding-top: 5px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: large;
+            color: white;
+        }
+            
+        .linkefelt a{
+            color:white;
+            text-decoration: none;
+
+        }
+        .linkefelt a:hover{
+            color: aliceblue;
+            text-decoration: underline;
+        }
+
+        #lfe{
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            padding-left: 100px;
+           
+        }
+
+        #lft{
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            padding-left: 250px;
+         
+        }
+
+        #lftr{
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            padding-left: 200px;
+            
+        }
+
+        #hovedfelt{
+        margin:auto;
+        width: 80vw;
+        height: 120%;
+        background-color: rgb(240, 242, 247);
+        padding-top: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+    .hoveddiver{
+        width: 40%;
+        height: 40%;
+        background-color:rgb(240, 242, 247);
+        color: rgb(21, 29, 59);;
+        border-radius: 20px;
+        /*box-shadow: 10px 10px 20px rgb(96, 73, 52);*/
+        text-align: center;
+        }
+        .hoveddiver p{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: large;
+            color: rgb(21, 29, 59);
+            text-align: left;
+        }
+
+        .hoveddiver a{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: large;
+            color: black;
+            text-decoration: none;
+            
+        }
+        .hoveddiver a:hover{
+            font-size: larger;
+            text-decoration: underline;
+        }
+        .hoveddiver a:hover{
+            text-decoration: underline;
+        }
+        #bildehund{
+            padding: 0%;
+        }
+        #midtrehoveddiv{
+            display: flex;
+            justify-content:center;
+            align-items: center;
+        }
+        .toppdiv{
+            height: 100px;
+            width: 100px;
+            padding-top: 25px;
+        }
+
+
+
+
+        #vtf{
+            background-color: rgb(255, 255, 255);
+            flex-grow: 20;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }     
+        body{
+            background-image: url(images/Logo1.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        h1, h2 {
+            font-family:'Times New Roman', Times, serif;
+            color: rgb(21,29,59);
+        }
+        #hoved {
+        width: 90%;
+        margin: 50px auto;
+        
+        }
+        ul {
+        width: 80%;
+        padding: 0;
+        list-style: none;
+        border: 1px solid #cccccc;
+        border-radius: 5px;
+        }
+        ul li {
+        border-bottom: 1px solid #cccccc;
+        padding: 15px;
+        }
+        ul li:last-child {
+        border-bottom: 0;
+        }
+
+    </style>
+    </head>
+    <body>
+        <div id="toppfelt">
+            <div class="toppdiv" id="vtf"> <img src="images/Logoliten.png" alt="Logo">
+            </div>
+    
+        </div>
+       
+        <div id="linker">
+            <div class="linkefelt" id="lfe">
+                <a href="omoss.html">Om oss</a>
+            </div>
+            <div class="linkefelt" id="lft">
+                <a href="Visstøtte.html">Vis din støtte</a>
+            </div>
+            <div class="linkefelt" id="lftr">
+                <a href="behandlinger.html">Behandlinger</a>
+            </div>
+    
+        </div>
+        <div id="hovedfelt">
+            <div class="hoveddiver">
+                <h1>Hundebehandlinger</h1>    
+                <p>Hos Pels og Pote har våre veterinærer god erfaring og utdannelse for å ta best vare på din hund. Vi er opptatte av både forebyggende behandlinger, i tillegg til akkutt hjelp når bestevennen din skal trenge det. Nedenfor finner du en liste over behandlinger vi utfører hos oss. </p>    
+            </div>
+            <div class="hoveddiver" id="bildehund">
+                <img src="images/hundebehandlinger.png" alt= hund width="100%">
+            </div>
+
+        <div id="hoved">
+            <h1> Våre behandlinger</h1>
+
+            <ul>
+              <li> Akutthjelp </li>
+              <li> Kirurgi </li>
+              <li> Kastrering </li>
+              <li> Rutinesjekk</li>
+              <li> Fysioterapi</li>
+            </ul>
+          </div>  
+        
+    </body>
+    </html>    
